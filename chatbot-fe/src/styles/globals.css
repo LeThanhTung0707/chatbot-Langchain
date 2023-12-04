@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .chat::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .chat::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .chat::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
